@@ -8,4 +8,7 @@ if (!requireNamespace("BiocManager", quietly = TRUE))
 
 BiocManager::install(c("biomaRt", "GEOquery", "minfi", "lumi"))
 ```
-Then, run the script
+Then, run the script in the same folder where Validation_data folder is:
+```
+Rscript prepare_external_data.R
+```
