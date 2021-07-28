@@ -22,7 +22,7 @@ GSE108497_ENSEMBL <- GSE108497_ENSEMBL[biomarkersExpr[,1],]
 expr_GSE108497 <- expr_GSE108497[rownames(expr_GSE108497) %in% GSE108497_ENSEMBL$external_gene_name,]
 
 # Save the expression table
-write.table(expr_GSE108497, "data/GSE108497_expr.tsv", sep="\t", quote = F)
+write.table(expr_GSE108497, "Validation_data/GSE108497_expr.tsv", sep="\t", quote = F)
 
 
 ###############################
