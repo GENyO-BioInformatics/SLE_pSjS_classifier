@@ -12,3 +12,10 @@ Then, run the script in the same folder where Validation_data folder is:
 ```
 Rscript prepare_external_data.R
 ```
+The files GSE108497_expr.tsv, GSE166373_meth.tsv and GSE166373_meta.tsv will be written in the Validation_data folder.
+
+Finally, run the python scripts for each dataset:
+```
+python3 Validation_Expression.py
+python3 Validation_Methylation.py
+```
